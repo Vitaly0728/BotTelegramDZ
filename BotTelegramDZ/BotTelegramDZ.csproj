@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>18a50960-7a35-4993-8721-a6579db974b8</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LibreTranslate.Net" Version="1.0.1" />
+    <PackageReference Include="Telegram.Bot" Version="22.2.0" />
+  </ItemGroup>
+
+</Project>
